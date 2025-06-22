@@ -129,21 +129,28 @@ app_license = "mit"
 # ---------------
 # Override standard doctype classes
 
-# override_doctype_class = {
-# 	"ToDo": "custom_app.overrides.CustomToDo"
-# }
+override_doctype_class = {
+	"Company": "amgz.overrides.company.CustomCompany"
+}
 
 # Document Events
 # ---------------
 # Hook on document methods and events
 
-# doc_events = {
-# 	"*": {
-# 		"on_update": "method",
-# 		"on_cancel": "method",
-# 		"on_trash": "method"
-# 	}
-# }
+doc_events = {
+	"Supplier": {
+		"autoname": "amgz.event.erpnext.supplier_autoname",
+	},
+	"Location": {
+		"autoname": "amgz.event.erpnext.location_autoname",
+	},
+	"Payment Term": {
+		"autoname": "amgz.event.erpnext.payment_term_autoname",
+	},
+	"Terms and Conditions": {
+		"autoname": "amgz.event.erpnext.terms_and_conditions_autoname",
+	},
+}
 
 # Scheduled Tasks
 # ---------------
@@ -242,3 +249,14 @@ app_license = "mit"
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
 
+fixtures = [
+  {'dt': 'Translation'},
+  {'dt': 'Workspace'},
+  {'dt': 'Currency'},
+  {'dt': 'System Settings'},
+  {'dt': 'Navbar Settings'},
+  {'dt': 'Website Settings'},
+  {'dt': 'Portal Settings'},
+  {'dt':'Custom Field', 'filters': [['module', '=', 'almagazi SaaS']]}, 
+  {'dt':'Property Setter', 'filters': [['module', '=', 'almagazi SaaS']]}, 
+]
