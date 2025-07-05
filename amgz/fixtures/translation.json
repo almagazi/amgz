@@ -7,6 +7,45 @@
   "docstatus": 0,
   "doctype": "Translation",
   "language": "id",
+  "modified": "2025-06-22 19:22:42.033882",
+  "name": "5tk73dfc5s",
+  "source_text": "Printing Details",
+  "translated_text": "Rincian Cetakan"
+ },
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "id",
+  "modified": "2025-06-22 20:41:16.945235",
+  "name": "jv1pld4mpb",
+  "source_text": "Opening Stock",
+  "translated_text": "Saldo Awal Persediaan"
+ },
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "id",
+  "modified": "2025-06-22 20:41:48.159605",
+  "name": "k8pkhanjj1",
+  "source_text": "Standard Selling Rate",
+  "translated_text": "Standar Nilai Jual"
+ },
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "id",
   "modified": "2025-06-12 21:15:32.308954",
   "name": "a7dkuglp3b",
   "source_text": "Details",
@@ -11230,5 +11269,31 @@
   "name": "jvdfiihem8",
   "source_text": "Applicable Modules",
   "translated_text": "Dikenakan pada Modul"
+ },
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "id",
+  "modified": "2025-07-05 15:36:49.535362",
+  "name": "qafccf1igs",
+  "source_text": "All Item Groups",
+  "translated_text": "Semua Grup Produk"
+ },
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "id",
+  "modified": "2025-07-05 16:21:31.510629",
+  "name": "kgjie9vmfv",
+  "source_text": "Designation",
+  "translated_text": "Jabatan"
  }
 ]

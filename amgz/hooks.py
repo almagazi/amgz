@@ -149,6 +149,9 @@ doc_events = {
 	"Asset": {
 		"autoname": "amgz.event.erpnext.asset_autoname",
 	},
+	"Asset Category": {
+		"autoname": "amgz.event.erpnext.asset_category_autoname",
+	},
 	"Customer": {
 		"autoname": "amgz.event.erpnext.customer_autoname",
 	},
@@ -167,6 +170,9 @@ doc_events = {
 	},
 	"Payment Term": {
 		"autoname": "amgz.event.erpnext.payment_term_autoname",
+	},
+	"Sales Partner": {
+		"autoname": "amgz.event.erpnext.sales_partner_autoname",
 	},
 	"Sales Person": {
 		"autoname": "amgz.event.erpnext.sales_person_autoname",

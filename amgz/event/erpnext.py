@@ -35,6 +35,9 @@ def asset_autoname(doc, method=None):
 	update_naming_series('Asset', naming)
 	doc.naming_series = naming #frappe.model.naming.getseries(naming, 5)
 
+def asset_category_autoname(doc, method=None):
+	add_company_suffix(doc, 'asset_category_name')
+
 def customer_autoname(doc, method=None):
 	add_company_suffix(doc, 'name')
 
@@ -56,11 +59,14 @@ def location_on_update(doc, method=None):
 def payment_term_autoname(doc, method=None):
 	add_company_suffix(doc, 'payment_term_name')
 
-def supplier_autoname(doc, method=None):
-	add_company_suffix(doc, 'name')
+def sales_partner_autoname(doc, method=None):
+	add_company_suffix(doc, 'sales_partner_name')
 
 def sales_person_autoname(doc, method=None):
 	add_company_suffix(doc, 'sales_person_name')
+
+def supplier_autoname(doc, method=None):
+	add_company_suffix(doc, 'name')
 
 def supplier_group_autoname(doc, method=None):
 	add_company_suffix(doc, 'supplier_group_name')
