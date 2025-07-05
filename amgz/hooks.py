@@ -45,7 +45,15 @@ app_license = "mit"
 # include js in doctype views
 # doctype_js = {"doctype" : "public/js/doctype.js"}
 # doctype_list_js = {"doctype" : "public/js/doctype_list.js"}
-# doctype_tree_js = {"doctype" : "public/js/doctype_tree.js"}
+doctype_tree_js = {
+  "Customer Group" : "public/js/customer_group_tree.js",
+  "Department" : "public/js/department_tree.js",
+  "Item Group" : "public/js/item_group_tree.js",
+  "Location" : "public/js/location_tree.js",
+  "Sales Person" : "public/js/sales_person_tree.js",
+  "Supplier Group" : "public/js/supplier_group_tree.js",
+  "Territory" : "public/js/territory_tree.js",
+}
 # doctype_calendar_js = {"doctype" : "public/js/doctype_calendar.js"}
 
 # Svg Icons
@@ -130,7 +138,7 @@ app_license = "mit"
 # Override standard doctype classes
 
 override_doctype_class = {
-	"Company": "amgz.overrides.company.CustomCompany"
+	"Company": "amgz.overrides.company.CustomCompany",
 }
 
 # Document Events
@@ -138,17 +146,42 @@ override_doctype_class = {
 # Hook on document methods and events
 
 doc_events = {
-	"Supplier": {
-		"autoname": "amgz.event.erpnext.supplier_autoname",
+	"Asset": {
+		"autoname": "amgz.event.erpnext.asset_autoname",
+	},
+	"Customer": {
+		"autoname": "amgz.event.erpnext.customer_autoname",
+	},
+	"Customer Group": {
+		"autoname": "amgz.event.erpnext.customer_group_autoname",
+	},
+	"Item": {
+		"autoname": "amgz.event.erpnext.item_autoname",
+	},
+	"Item Group": {
+		"autoname": "amgz.event.erpnext.item_group_autoname",
 	},
 	"Location": {
 		"autoname": "amgz.event.erpnext.location_autoname",
+    "on_update": "amgz.event.erpnext.location_on_update",
 	},
 	"Payment Term": {
 		"autoname": "amgz.event.erpnext.payment_term_autoname",
 	},
+	"Sales Person": {
+		"autoname": "amgz.event.erpnext.sales_person_autoname",
+	},
+	"Supplier": {
+		"autoname": "amgz.event.erpnext.supplier_autoname",
+	},
+	"Supplier Group": {
+		"autoname": "amgz.event.erpnext.supplier_group_autoname",
+	},
 	"Terms and Conditions": {
 		"autoname": "amgz.event.erpnext.terms_and_conditions_autoname",
+	},
+	"Territory": {
+		"autoname": "amgz.event.erpnext.territory_autoname",
 	},
 }
 
