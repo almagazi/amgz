@@ -171,6 +171,9 @@ doc_events = {
 	"Payment Term": {
 		"autoname": "amgz.event.erpnext.payment_term_autoname",
 	},
+	"Price List": {
+		"autoname": "amgz.event.erpnext.price_list_autoname",
+	},
 	"Sales Partner": {
 		"autoname": "amgz.event.erpnext.sales_partner_autoname",
 	},

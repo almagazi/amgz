@@ -1,4 +1,5 @@
 import frappe
+from frappe.utils import getdate
 
 def add_company_suffix(doc, field_name):
 	if not doc.custom_company:
@@ -30,8 +31,7 @@ def asset_autoname(doc, method=None):
 		return
 	prefix = frappe.get_cached_value('Company', doc.company, 'abbr')
 	prefix_group = frappe.db.get_value('Item', doc.item_code, 'custom_group_abbbreviation')
-	year_available = frappe.utils.getdate(doc.available_for_use_date).year
-	naming = f'{prefix}-AST-{prefix_group}-{year_available}-'
+	naming = f'{prefix}-AST-{prefix_group}-{getdate(doc.available_for_use_date).strftime('%y%m')}-'
 	update_naming_series('Asset', naming)
 	doc.naming_series = naming #frappe.model.naming.getseries(naming, 5)
 
@@ -58,6 +58,9 @@ def location_on_update(doc, method=None):
 
 def payment_term_autoname(doc, method=None):
 	add_company_suffix(doc, 'payment_term_name')
+
+def price_list_autoname(doc, method=None):
+	add_company_suffix(doc, 'price_list_name')
 
 def sales_partner_autoname(doc, method=None):
 	add_company_suffix(doc, 'sales_partner_name')

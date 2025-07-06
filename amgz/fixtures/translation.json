@@ -1931,10 +1931,10 @@
   "docstatus": 0,
   "doctype": "Translation",
   "language": "id",
-  "modified": "2025-01-25 22:12:22.126127",
+  "modified": "2025-07-05 21:04:23.580006",
   "name": "p7snatpk20",
   "source_text": "Asset Movement",
-  "translated_text": "Perpindahan Aset"
+  "translated_text": "Transfer Aset"
  },
  {
   "context": null,
@@ -8249,10 +8249,10 @@
   "docstatus": 0,
   "doctype": "Translation",
   "language": "id",
-  "modified": "2025-06-11 22:02:46.968154",
+  "modified": "2025-07-05 22:31:41.406060",
   "name": "2f5tg2kopj",
   "source_text": "Paid From Account Type",
-  "translated_text": "Dibayar dari Tipe Akun"
+  "translated_text": "Dibayar dari Jenis Akun"
  },
  {
   "context": null,
@@ -8262,10 +8262,10 @@
   "docstatus": 0,
   "doctype": "Translation",
   "language": "id",
-  "modified": "2025-06-11 22:03:02.190181",
+  "modified": "2025-07-05 22:32:02.085909",
   "name": "2jt9nphdlk",
   "source_text": "Paid To Account Type",
-  "translated_text": "Dibayar ke Tipe Akun"
+  "translated_text": "Dibayar ke Jenis Akun"
  },
  {
   "context": null,
@@ -8682,19 +8682,6 @@
   "name": "lib6r0l6an",
   "source_text": "Difference Amount",
   "translated_text": "Nilai Penyesuaian"
- },
- {
-  "context": "",
-  "contributed": 0,
-  "contribution_docname": null,
-  "contribution_status": "",
-  "docstatus": 0,
-  "doctype": "Translation",
-  "language": "id",
-  "modified": "2025-06-12 09:33:02.240870",
-  "name": "lmte6jvr80",
-  "source_text": "Asset Name",
-  "translated_text": "Nama Aset"
  },
  {
   "context": "",
@@ -9341,10 +9328,10 @@
   "docstatus": 0,
   "doctype": "Translation",
   "language": "id",
-  "modified": "2025-06-12 11:00:45.076506",
+  "modified": "2025-07-05 22:32:22.517752",
   "name": "5osd08q006",
   "source_text": "Link Document Type",
-  "translated_text": "Tipe Dokumen Tautan"
+  "translated_text": "Jenis Dokumen Tautan"
  },
  {
   "context": "Dynamic Link",
@@ -11200,10 +11187,10 @@
   "docstatus": 0,
   "doctype": "Translation",
   "language": "id",
-  "modified": "2025-06-14 20:12:37.321773",
+  "modified": "2025-07-05 22:32:42.469045",
   "name": "rvh2i3bonv",
   "source_text": "Supplier Type",
-  "translated_text": "Tipe Pemasok"
+  "translated_text": "Jenis Pemasok"
  },
  {
   "context": "",
@@ -11295,5 +11282,122 @@
   "name": "kgjie9vmfv",
   "source_text": "Designation",
   "translated_text": "Jabatan"
+ },
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "id",
+  "modified": "2025-07-05 18:36:51.473863",
+  "name": "3q2irisn7t",
+  "source_text": "Price List Name",
+  "translated_text": "Nama Daftar Harga"
+ },
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "id",
+  "modified": "2025-07-05 20:11:03.511737",
+  "name": "r0bp2pmt63",
+  "source_text": "Receive",
+  "translated_text": "Terima"
+ },
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "id",
+  "modified": "2025-07-05 20:11:12.140563",
+  "name": "r31ug743tl",
+  "source_text": "Pay",
+  "translated_text": "Bayar"
+ },
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "id",
+  "modified": "2025-07-05 22:33:04.026383",
+  "name": "e70k1e0lnl",
+  "source_text": "Stock Entry Type",
+  "translated_text": "Jenis Entri Persediaan"
+ },
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "id",
+  "modified": "2025-07-06 14:45:42.323348",
+  "name": "83vubob6p1",
+  "source_text": "Inventory Settings",
+  "translated_text": "Pengaturan Persediaan"
+ },
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "id",
+  "modified": "2025-07-06 16:21:25.578819",
+  "name": "06n151sjsl",
+  "source_text": "Gross Profit Percent",
+  "translated_text": "Persentase Laba Kotor"
+ },
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "id",
+  "modified": "2025-07-06 16:22:53.240636",
+  "name": "124sm4572v",
+  "source_text": "Search or type a command (Ctrl + G)",
+  "translated_text": "Cari di sini (Ctrl + G)"
+ },
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "id",
+  "modified": "2025-07-06 16:27:21.164196",
+  "name": "3lrfselda8",
+  "source_text": "Task Completion",
+  "translated_text": "Penyelesaian Tugas"
+ },
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "id",
+  "modified": "2025-07-06 17:30:30.150844",
+  "name": "8ltj0lvbuj",
+  "source_text": "Task Type Abb",
+  "translated_text": "Singkatan Jenis Tugas"
  }
 ]
