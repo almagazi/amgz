@@ -33,7 +33,7 @@ def asset_autoname(doc, method=None):
 	prefix_group = frappe.db.get_value('Item', doc.item_code, 'custom_group_abbbreviation')
 	naming = f'{prefix}-AST-{prefix_group}-{getdate(doc.available_for_use_date).strftime('%y%m')}-'
 	update_naming_series('Asset', naming)
-	doc.naming_series = naming #frappe.model.naming.getseries(naming, 5)
+	doc.naming_series = naming
 
 def asset_category_autoname(doc, method=None):
 	add_company_suffix(doc, 'asset_category_name')

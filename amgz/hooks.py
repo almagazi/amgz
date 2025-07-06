@@ -301,4 +301,6 @@ fixtures = [
   {'dt': 'Portal Settings'},
   {'dt':'Custom Field', 'filters': [['module', '=', 'almagazi SaaS']]}, 
   {'dt':'Property Setter', 'filters': [['module', '=', 'almagazi SaaS']]}, 
+  {'dt':'Role', 'filters': [['role_name', 'LIKE', 'AMGZ%']]}, 
+  {'dt':'Custom DocPerm', 'filters': [['role', 'LIKE', 'AMGZ%']]}, 
 ]
