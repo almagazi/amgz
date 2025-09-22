@@ -31,7 +31,7 @@ def asset_autoname(doc, method=None):
 		return
 	prefix = frappe.get_cached_value('Company', doc.company, 'abbr')
 	prefix_group = frappe.db.get_value('Item', doc.item_code, 'custom_group_abbbreviation')
-	naming = f'{prefix}-AST-{prefix_group}-{getdate(doc.available_for_use_date).strftime('%y%m')}-'
+	naming = f"{prefix}-AST-{prefix_group}-{getdate(doc.available_for_use_date).strftime('%y%m')}-"
 	update_naming_series('Asset', naming)
 	doc.naming_series = naming
 
